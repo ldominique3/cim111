@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+body{
+  font-family: 'Poiret One', cursive;
+  zoom: 67%;
+
+}
+h1{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  font-size: 78px;
+  background-color: black;
+  font-family: 'Monoton';
+
+}
+nav{
+  width: 945px;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+  color: red;
+}
+
+nav ul{
+  margin-left: -30px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  /* width: 100px; */
+  text-align: center;
+  margin-right: 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  background-color: red;
+}
+
+p{
+  color:black;
+  font-size: 30px;
+  font-weight: bold;
+  background-color:red;
+  width: 450px;
+  height: 180px;
+  position: fixed;
+  top: 475px;
+  left: 50px;
+}
+
+.img-run {
+  width:900px;
+  height:550px;
+  position: fixed;
+  top: 325px;
+  left: 575px;
+
+}
+
+ h2{
+   color:black;
+   font-size: 30px;
+   font-weight: bold;
+   background-color:red;
+   width: 450px;
+   height: 115px;
+   position: fixed;
+   top: 530px;
+   right: 50px;
+ }
+
+ div{
+   background-color:black;
+   width: 945px;
+   height: 600px;
+   position: fixed;
+   top:300px;
+   left: 550px;
+
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
