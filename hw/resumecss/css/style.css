@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Notable");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+@import url("https://fonts.googleapis.com/css?family=Khand");
+
+
+body{
+  background-color: Orange;
+  color: Green;
+  text-decoration: none;
+
+  }
+
+  address{
+    text-decoration: overline;
+    color: rgba(3, 45, 55);)
+  }
+
+  h2{
+    color: red;
+    text-decoration: none;
+    font-family:'Cabin Sketch', cursive;
+  }
+
+  a{
+       text-decoration: none;
+       color: pink;
+       font-weight: 900;
+     }
+     a:hover{
+       color: white;
+       text-decoration: underline;
+       font-style: italic;
+     }
+
+  p{
+    color: #ee3e80;
+    font-family: 'Khand', sans-serif;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+  }
+
+#introduction{
+  color:yellow;
+  font-weight: bold;
+  font-variant-caps: all-small-caps;
+}
+
+  #name{
+    color: blue;
+    font-family: 'Notable', sans-serif;
+    text-decoration: none;
+    font-language-override: "ENG";
+  }
+
+  #bottom{
+    color:purple;
+  }
+
+  #hobbies{
+    color: yellow;
+    font-variant-caps: all-small-caps;
+  }
+
+  #work{
+    color: yellow;
+  }
+
+
+  a:hover{
+      color: white;
+      text-decoration: none;
+    }
+
+    p.note{
+      color: white;
+      font-weight: bold;
+    }
+    p.identity{
+      color: indigo;
+      font-style: italic;
+    }
