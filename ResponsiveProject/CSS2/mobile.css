@@ -1,1 +1,6 @@
 @import "CSS2/style.css";
+
+body{
+  font-family: 'Poiret One', cursive;
+  zoom: 67%;
+  background: url('images/run2.jpg');
