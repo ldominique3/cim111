@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Dreams of Being in Greece</title>
+
+
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+    @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+    html{
+      background: url('Images/Sky.jpg');
+      background-size: cover;
+    }
+    a {
+      color: white;
+    }
+
+    body{
+        zoom: 75%;
+    }
+    main{
+      text-align: center;
+      background-color:#FA3970;
+      width: 918px;
+      height: 615px;
+      position: absolute;
+      top: 250px;
+      left:450px;
+
+    }
+
+
+    h1{
+
+      font-family: 'Petit Formal Script', cursive;
+      font-weight: 300;
+      font-size: 3em;
+      color: white;
+
+    }
+
+
+    ul {
+      list-style-type: none;
+    }
+
+h2{
+  color:white;
+  font-size: 50px;
+  background-color:#FA3970;
+  width: 918px;
+  height: 360px;
+  top: 850px;
+  left:450px;
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+
+}
+
+h3{
+  color:white;
+  font-size: 35px;
+  background-color:#FA3970;
+  width: 918px;
+  height: 360px;
+  top: 1233px;
+  left:450px;
+  position: absolute;
+  font-family: 'Poiret One', cursive;
+}
+
+.greece{
+  color:#FA3970;
+  font-size: 100px;
+  font-family: 'Petit Formal Script', cursive;
+  top: 100px;
+  left:720px;
+  position: absolute;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+    <h1><center> Dreams of being in...</center></h1>
+
+    <id class="greece"><center><b>Greece</b></center></id>
+  </header>
+
+<h2
+  <p>Greece is a beautiful nation full of rich culture, tradition and history. Greece is a desirible vacation spot. You can explore in Athens and learn of an ancient empire or travel to the Greek Islands and enjoy a yacht ride.Greece is truly heaven on Earth.</p>
+</h2>
+
+    <main>
+      <center><table>
+      <center><tr>
+    </center></tr>
+        <td><img src= "Images/A.jpg" width="300" height="300"></td>
+        <td><img src= "Images/B.jpg" width="300" height="300"></td>
+        <td><img src= "Images/C.jpg" width="300" height="300"></td>
+      </tr></center>
+    <center><tr>
+        <td><img src= "Images/D.jpg" width="300" height="300"></td>
+        <td><img src= "Images/E.jpg"width="300" height="300"></td>
+        <td><img src= "Images/G.jpg"width="300" height="300"></td>
+      </tr></center>
+    </table></center>
+    </main>
+
+
+<h3><center>Hot Spots</center>
+  <ol>
+    <li id="A"><a href= "http://www.visitgreece.gr/en/greek_islands/mykonos">Mykonos</li>
+    <li id="B"><a href= "http://www.visitgreece.gr/en/main_cities/athens">Athens</li>
+    <li id="C"><a href= "http://www.visitgreece.gr/en/greek_islands/crete">Crete</li>
+    <li id="D"><a href= "https://www.visitmeteora.travel/the-meteora-monasteries/">Meteora</li>
+    <li id="E"><a href="http://www.visitgreece.gr/en/greek_islands/santorini">Santorini</li>
+  </ol>
+</h3>
+
+<!-- Relative -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- Relative -->
+<script src="js/jquery.transit.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    //All code should be placed below
+
+  $('#greece').transition({ x: '40px', y: '40px' });
+
+  $('#A').transition({
+    rotateX: '1400deg'
+});
+$('#B').transition({
+  rotateX: '1400deg'
+});
+$('#C').transition({
+  rotateX: '1400deg'
+});
+$('#D').transition({
+  rotateX: '1400deg'
+  });
+$('#E').transition({
+  rotateX: '1400deg'
+})
+
+  });//end of document ready
+</script>
+  </body>
+</html>
